@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace Mabel.Timing
 {
@@ -52,7 +52,7 @@ namespace Mabel.Timing
                 }
                 Seconds = 0;
             }
-            Seconds += (Time.fixedUnscaledDeltaTime * speedMultiplier) * scale;
+            Seconds += (Time.fixedUnscaledDeltaTime * speedMultiplier);
         }
 
         //Constructor of the class
