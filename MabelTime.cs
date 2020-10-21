@@ -7,9 +7,9 @@ namespace Mabel.Timing
         float speedMultiplier = 1;
         int rawMinutes;
 
-        [HideInInspector]  int Hour;
-        [HideInInspector]  int Minutes;
-        [HideInInspector]  float Seconds;
+        [HideInInspector] public int Hour;
+        [HideInInspector] public int Minutes;
+        [HideInInspector] public float Seconds;
 
 
 
